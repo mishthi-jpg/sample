@@ -1,0 +1,19 @@
+order_id,customer_name,customer_email,product_category,quantity,unit_price,order_date
+1001,Ravi Kumar,ravi.kumar@example.com,Electronics,2.0,1500,2026-01-05
+1002,Sneha Sharma,sneha.sharma@example.com,Apparel,1.0,899,
+1003,Amit Verma,N/A,Electronics,3.0,1500,2026-01-06
+1004,Priya Singh,priya.singh@example.com,Home & Kitchen,1.0,2200,2026-01-06
+1006,Neha Gupta,neha.gupta@example.com,Apparel,N/A,899,
+1007,Karan Mehta,karan.mehta@example.com,Books,4.0,450,2026-01-07
+1008,Pooja Rani,pooja.rani@example.com,Electronics,1.0,1500,
+1009,Suresh Yadav,suresh.yadav@example.com,Home & Kitchen,2.0,2200,2026-01-08
+1010,Anjali Nair,N/A,Books,1.0,450,2026-01-09
+1011,Rohit Malhotra,rohit.malhotra@example.com,Apparel,3.0,899,2026-01-09
+1012,Divya Iyer,divya.iyer@example.com,Electronics,1.0,1500,2026-01-10
+1014,Manoj Tiwari,manoj.tiwari@example.com,Books,2.0,450,
+1015,Kavita Joshi,kavita.joshi@example.com,Home & Kitchen,N/A,2200,2026-01-11
+1016,Arjun Reddy,arjun.reddy@example.com,Apparel,2.0,899,2026-01-11
+1017,Simran Kaur,simran.kaur@example.com,Electronics,1.0,1500,2026-01-12
+1018,Vikram Chauhan,N/A,Books,3.0,450,2026-01-12
+1019,Meera Pillai,meera.pillai@example.com,Home & Kitchen,1.0,2200,
+1020,Sanjay Rathore,sanjay.rathore@example.com,Apparel,1.0,899,2026-01-13
