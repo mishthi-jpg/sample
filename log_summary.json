@@ -1,0 +1,7 @@
+{
+  "source_file": "access.log",
+  "total_lines_processed": 10,
+  "status_200": 6,
+  "status_500": 1,
+  "generated_at": "2026-08-31T15:29:06.997274+00:00"
+}

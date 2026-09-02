@@ -17,7 +17,7 @@ for (const line of lines) {
 }
 
 const summary = {
-    total_lines_processed: lines.length,
+    total_lines_processed: lines.length, 
     status_200: count200,
     status_500: count500,
     generated_at: new Date().toISOString()
