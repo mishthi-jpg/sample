@@ -2,7 +2,7 @@ import json
 from datetime import datetime, timezone
 import re
 
-log_path = 'access.log'
+log_path = 'access_errors.log'
 
 count_200 = 0
 count_500 = 0
@@ -38,25 +38,29 @@ print(summary)
 #REgex parsing of log file
 
 
-four_hundred_count = 0
-five_hundred_count = 0
+
+pattern = r'"\s*([1-5]\d{2})\s'
  
 with open("access_errors.log", "r") as l:
     log_data = l.read()
+    counta = 0
+    countb = 0
     for lines in l:
         lines=lines.strip() 
         if not lines:
             continue
         if '400' in lines:
             print("yep 400")
-            four_hundred_count = four_hundred_count + 1
+            counta = counta + 1
         elif '500' in lines:
             print("yep 500")
-            five_hundred_count = five_hundred_count + 1
+            countb = countb + 1
 
-pattern = r'"\s*([1-5]\d{2})\s'
 
 status_codes = re.findall(pattern, log_data)
 print(status_codes)
-print(f"Count of 400 status codes: {four_hundred_count}")
-print(f"Count of 500 status codes: {five_hundred_count}")
+print(f"Count of 400 status codes: {counta}")
+print(f"Count of 500 status codes: {countb}")
+
+
+
